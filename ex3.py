@@ -1,4 +1,5 @@
-
+#encoding=utf-8
+#数字计算，
 print "I will now count my chickens:"
 
 print "Hens", 25 + 30 / 6
@@ -27,5 +28,29 @@ print "Is It greater or equal?" ,5 >= -2
 
 print "Is it less or equals?", 5<= -2
 
-print 7.0/4.0
-print 7/4
+print 7.0/4.0   #1.75
+print 7/4       #1
+
+'''
+result:
+
+I will now count my chickens:
+Hens 30
+Roosters 97
+Now I will count the eggs:
+7
+Is it true that 3 + 2 < 5 -7?
+False
+What is 3 + 2? 5
+What is 5 - 7? -2
+Oh.that's why it's False.
+How about some more.
+Is it greater? True
+Is It greater or equal? True
+Is it less or equals? False
+1.75
+1
+
+
+'''
+
