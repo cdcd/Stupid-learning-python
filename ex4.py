@@ -9,6 +9,8 @@ average_passengers_per_car = passerngers / cars_driven
 
 
 print "There are",cars,"cars available."
+print "There are %d cars available" % cars
+print "There are %d cars available and %d drivers available" % (cars,drivers)
 print "There are only",drivers,"drivers available."
 print "There will be",cars_not_drivern,"empty cars today."
 print "we can transport",carpool_capacity,"people today."
